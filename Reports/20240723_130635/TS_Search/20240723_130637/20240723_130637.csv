@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Search,,,,23-07-2024 13:06:48,23-07-2024 13:07:49,1m - 0.625s,FAILED
+,,,,,,,
+Test Cases/Wikipedia/TC_Wikipedia_Search,,ini adalah test case search wikipedia,,23-07-2024 13:06:49,23-07-2024 13:07:49,1m - 0.459s,FAILED
+"startApplicationWithTitle(""""C:\Users\1556\OneDrive\Desktop\Wikipedia.lnk"""", ""Wikipedia, the free encyclopedia"")",,,,23-07-2024 13:06:49,23-07-2024 13:07:49,1m - 0.064s,FAILED

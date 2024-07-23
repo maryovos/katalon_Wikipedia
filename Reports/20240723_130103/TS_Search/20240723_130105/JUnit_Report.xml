@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Search" time="33.522" tests="1" failures="0" errors="0">
+   <testsuite name="TS_Search" tests="1" failures="0" errors="0" time="33.522" skipped="0" timestamp="23-07-2024T13:01:17" hostname="1556 - LAPTOP-PT885S91" id="Test Suites/TS_Search">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\1556\\Katalon Studio\\IDX\\Automation Desktop\\Reports\\20240723_130103\\TS_Search\\20240723_130105"/>
+         <property name="logFiles" value="C:\\Users\\1556\\Katalon Studio\\IDX\\Automation Desktop\\Reports\\20240723_130103\\TS_Search\\20240723_130105\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="1556 - LAPTOP-PT885S91"/>
+         <property name="hostAddress" value="192.168.56.2"/>
+         <property name="desiredCapabilities" value="{&quot;args&quot;:&quot;--window-size\u003d600,400&quot;}"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+      </properties>
+      <testcase name="Test Cases/Wikipedia/TC_Wikipedia_Search" time="33.333" classname="Test Cases/Wikipedia/TC_Wikipedia_Search" status="PASSED">
+         <system-out><![CDATA[23-07-2024T13:01:17 - [TEST_CASE][PASSED] - Test Cases/Wikipedia/TC_Wikipedia_Search: Test Cases/Wikipedia/TC_Wikipedia_Search
+
+23-07-2024T13:01:18 - [TEST_STEP][PASSED] - startApplicationWithTitle("C:\Users\1556\OneDrive\Desktop\Wikipedia.lnk", "Wikipedia, the free encyclopedia"): The application at location: C:\Users\1556\OneDrive\Desktop\Wikipedia.lnk started.
+
+23-07-2024T13:01:18 - [MESSAGE][INFO] - Starting application C:\Users\1556\OneDrive\Desktop\Wikipedia.lnk on the local machine at address http://127.0.0.1:4723
+
+23-07-2024T13:01:19 - [MESSAGE][INFO] - Start finding a window that matches with title 'C:\Users\1556\OneDrive\Desktop\Wikipedia.lnk' in 120,000 millisecond(s)
+
+23-07-2024T13:01:41 - [MESSAGE][PASSED] - The application at location: C:\Users\1556\OneDrive\Desktop\Wikipedia.lnk started.
+
+23-07-2024T13:01:41 - [TEST_STEP][PASSED] - waitForElementPresent(findWindowsObject("Wikipedia/SearchBox Wikipedia"), 5): Object 'Object Repository/Wikipedia/SearchBox Wikipedia' is present
+
+23-07-2024T13:01:41 - [MESSAGE][PASSED] - Object 'Object Repository/Wikipedia/SearchBox Wikipedia' is present
+
+23-07-2024T13:01:41 - [TEST_STEP][PASSED] - click(findWindowsObject("Wikipedia/SearchBox Wikipedia")): Click on element: Object Repository/Wikipedia/SearchBox Wikipedia succesfully
+
+23-07-2024T13:01:42 - [MESSAGE][INFO] - Clicking on element: Object Repository/Wikipedia/SearchBox Wikipedia
+
+23-07-2024T13:01:42 - [MESSAGE][PASSED] - Click on element: Object Repository/Wikipedia/SearchBox Wikipedia succesfully
+
+23-07-2024T13:01:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+23-07-2024T13:01:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-07-2024T13:01:45 - [TEST_STEP][PASSED] - setText(findWindowsObject("Wikipedia/SearchBox Wikipedia"), search): Text Hello World is set
+
+23-07-2024T13:01:47 - [MESSAGE][PASSED] - Text Hello World is set
+
+23-07-2024T13:01:47 - [TEST_STEP][PASSED] - sendKeys(findWindowsObject("Wikipedia/SearchBox Wikipedia"), Keys.chord(ENTER)): Keys  are pressed
+
+23-07-2024T13:01:47 - [MESSAGE][PASSED] - Keys  are pressed
+
+23-07-2024T13:01:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+23-07-2024T13:01:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+23-07-2024T13:01:50 - [TEST_STEP][PASSED] - closeApplication(): Fire Close event sucessfully.
+
+23-07-2024T13:01:51 - [MESSAGE][PASSED] - Fire Close event sucessfully.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[23-07-2024T13:01:17 - [TEST_SUITE][PASSED] - TS_Search: Test Cases/Wikipedia/TC_Wikipedia_Search]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

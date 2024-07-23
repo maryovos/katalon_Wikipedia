@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WindowsElementEntity>
+   <description></description>
+   <name>field_SearchBox</name>
+   <tag></tag>
+   <locator></locator>
+   <locatorStrategy>XPATH</locatorStrategy>
+   <properties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//Window/Pane[3]/Pane[1]/Pane[1]/Pane[2]/Pane[2]/Pane[1]/Pane[1]/Pane[1]/Document[1]/Group[1]/Group[1]/Group[1]/Group[1]/List[1]/ListItem[2]/HyperLink[1]</value>
+      <webElementGuid>5f7d3ad7-e0eb-49c9-9e6f-818be0ff033b</webElementGuid>
+   </properties>
+</WindowsElementEntity>

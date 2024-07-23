@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ini adalah test case search wikipedia</description>
+   <name>TC_Wikipedia_Article</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0ab76a5e-cbb9-4028-90f2-24fbbf5c07d0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f74eabb1-cb46-47c9-9d72-a0384fe917ec</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Katalon'</defaultValue>
+      <description></description>
+      <id>f74eabb1-cb46-47c9-9d72-a0384fe917ec</id>
+      <masked>false</masked>
+      <name>search</name>
+   </variable>
+</TestCaseEntity>

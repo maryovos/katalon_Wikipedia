@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Search,,,,23-07-2024 13:01:17,23-07-2024 13:01:51,33.522s,PASSED
+,,,,,,,
+Test Cases/Wikipedia/TC_Wikipedia_Search,,ini adalah test case search wikipedia,,23-07-2024 13:01:17,23-07-2024 13:01:51,33.333s,PASSED
+"startApplicationWithTitle(""C:\Users\1556\OneDrive\Desktop\Wikipedia.lnk"", ""Wikipedia, the free encyclopedia"")",,,,23-07-2024 13:01:18,23-07-2024 13:01:41,23.541s,PASSED
+"waitForElementPresent(findWindowsObject(""Wikipedia/SearchBox Wikipedia""), 5)",,,,23-07-2024 13:01:41,23-07-2024 13:01:41,0.424s,PASSED
+"click(findWindowsObject(""Wikipedia/SearchBox Wikipedia""))",,,,23-07-2024 13:01:41,23-07-2024 13:01:42,0.635s,PASSED
+delay(3),,,,23-07-2024 13:01:42,23-07-2024 13:01:45,3.029s,PASSED
+"setText(findWindowsObject(""Wikipedia/SearchBox Wikipedia""), search)",,,,23-07-2024 13:01:45,23-07-2024 13:01:47,1.846s,PASSED
+"sendKeys(findWindowsObject(""Wikipedia/SearchBox Wikipedia""), Keys.chord(ENTER))",,,,23-07-2024 13:01:47,23-07-2024 13:01:47,0.483s,PASSED
+delay(3),,,,23-07-2024 13:01:47,23-07-2024 13:01:50,3.015s,PASSED
+closeApplication(),,,,23-07-2024 13:01:50,23-07-2024 13:01:51,0.145s,PASSED
